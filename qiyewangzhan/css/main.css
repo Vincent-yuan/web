@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+body{
+	background:#F5F5F5;
+}
+
+.top{
+	background: url(../images/top_bg.jpg) repeat-x;
+	background-color: #666;
+	width:100%;
+	height:27px;
+	
+}
+
+.top-content{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.top-content li{
+	list-style-image:url(../images/li_bg.gif);
+	float:right;
+	width:75px;
+	line-height:27px;
+}
+
+.top-content a:link,.top-content a:visited{
+	color:#999;
+	text-decoration:none;
+}
+
+.top-content a:hover,.top-content a:active{
+	color:#900;
+}
+
+.wrap
+{
+	width:1000px;
+	margin:0 auto;
+	}
+	
+.logo
+{
+	height:80px;
+	background-color:#FFF;
+}
+
+.logo-left
+{
+	width:200px;
+	float:left;
+}
+.logo-right
+{
+	width:300px;
+	float:right;
+	height:28px;
+	margin-top:25px;
+	}
+
+.logo-right img
+{
+	vertical-align:middle;
+	margin-right:10px;
+}
+
+.tel
+{
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:#C00;
+}
+
+.nav
+{
+	height:40px;
+	
+}
+
+.nav .nav-left{
+	width:10px;
+	background:url(../images/nav_left.jpg) repeat-x;
+	float:left;
+	height:40px;
+}
+
+.nav .nav-mid{
+	width:980px;
+	background:url(../images/nav_bg.jpg) repeat-x;
+	float:left;
+}
+
+.nav .nav-right{
+	width:10px;
+	background:url(../images/nav_right.jpg) repeat-x;
+	float:left;
+	height:40px;
+}
+
+
+.nav-mid-left{
+	/*margin:0 auto;*/
+	width:680px;
+	float:left;
+}
+
+.nav-mid-right{
+	/*margin:0 auto;*/
+	float:right;
+	width:300px;
+}
+
+.nav-mid-left li{
+	list-style-type:none;
+	float:left;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	
+}
+
+.nav-mid-left a:link,.nav-mid-left a:visited{
+	text-decoration:none;
+	color:#999;
+	font-size:16px;
+	font-family:"微软雅黑";	
+}
+
+.nav-mid-left a:hover,.nav-mid-left a:active{
+	text-decoration:none;
+	color:#FF0;
+}
+
+.nav-mid-right input{
+	width:200px;
+	height:26px;
+	margin-top:4px;
+	margin-bottom:2px;
+	/*margin-left:60px;*/
+	background:url(../images/search.jpg) no-repeat;
+	background-position:right center;
+	background-color:#FFF;
+	padding-right:30px;
+	border:1px solid #FFF;
+}
+
+.ad{
+	height:310px;
+	overflow:hidden;
+	}
